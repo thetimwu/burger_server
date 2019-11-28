@@ -11,7 +11,8 @@ class ContactData extends Component {
     address: {
       street: "",
       postalCode: ""
-    }
+    },
+    loading: false
   };
 
   orderHandler = event => {
